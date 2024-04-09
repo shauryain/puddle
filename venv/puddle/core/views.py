@@ -1,6 +1,7 @@
 from django.shortcuts import render,redirect
 from item.models import Category, Item
 from.forms import SignupForm
+from django.contrib.auth import logout
 
 
 
